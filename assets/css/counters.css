@@ -9,33 +9,25 @@
     position: relative;
 }
 .startup_sec .bg_h1{
-    background-image: url(../images/section_patterns/line_pattern.webp);
-    height: 150px;
-    width: auto;
+    background-image: url(../images/features/call_to_actions/vectors-group.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
    background-color: #4C6FFF;  
    position: relative;
    top: 59%;
    right: 16%;
-   border-radius: 15%;
+   /* border-radius: 15%; */
+
 }
-.happy_customers .bg_h2{
-    background-image: url(../images/section_patterns/line_pattern.webp);
-    height: 150px;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-color: #EB9823;
-   position: relative;
-   top: 30%;
-   right: 16%;
-   border-radius: 15%;
+.startup_sec .bg_h1 h1{
+  font-size: 45px;
 }
+
 
 .startup_sec .counter {
     font-weight: bold;
     animation: countUp 4s ease-out;
+    color: #ffc0ec;
   }
   @keyframes countUp {
     from {
@@ -88,6 +80,32 @@
 }
 /* -------------------------------------------------------- */
 
+.ser_count h1{
+  font-size: 4rem;
+}
+.ser_count .sc_count1{
+  background-color: #e1fcdc !important;
+  gap: 20px;
+}
+.ser_count .sc_count2{
+  background-color: #e3e8ff !important;
+  gap: 20px;
+
+}
+.ser_count .sc_count3{
+  background-color: #ffedef !important;
+  gap: 20px;
+
+}
+.ser_count .sc_count4{
+  background-color: #fff9e6 !important;
+  gap: 20px;
+
+}
+
+
+
+/* ----------------------------------- */
 #augment  .augment_img_content_box{
   
   background-color: #FFC947;

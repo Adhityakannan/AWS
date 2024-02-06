@@ -33,7 +33,7 @@
     flex-direction: row !important;
     opacity: 1;
 }
-.embed_i{
+.shops_products .embed_i{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -46,10 +46,10 @@
     color:rgb(0, 0, 0);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.img_col{
+.shops_products .img_col{
     position: relative;
 }
-.pos_i{
+.shops_products .pos_i{
     position: absolute !important;
     bottom: 35% !important;
     left: 40% !important;

@@ -44,13 +44,19 @@ body{
 
 
 /* ----------------- INDEX CSS software solutions--------------- */
-#software_solutions{
+.software_solutions{
     background: url(../images/main/bg-patter-new-min-1.png);
     background-position: center;
     background-repeat: no-repeat;
 
 }
-#software_solutions .software_solutions_img:hover{
+.software_solutions .owl-carousel .owl-stage{
+    display: flex;
+}
+.software_solutions .owl-carousel .owl-stage .owl-item{
+    display: flex;
+}
+.software_solutions .software_solutions_img:hover{
     cursor: grab;
 }
 .scrollbar::-webkit-scrollbar {
@@ -79,14 +85,14 @@ body{
     user-select: none;
   }
 
-#software_solutions .container  .scrollbar_content_designation_box{
+.software_solutions .container  .scrollbar_content_designation_box{
     bottom: -40px;
     background: #4c6fff;
     border: 1px solid #4c6fff;
     color: #f8fafc !important;
-    width: 74%;
+    width: 73%;
 }
-#software_solutions .container  .scrollbar_content_designation_box h4{
+.software_solutions .container  .scrollbar_content_designation_box h4{
     color: #f8fafc;
 }
 /* ------------------------------- */
@@ -109,13 +115,12 @@ body{
 
 
 
-.software_solutions_5 .scrollbar .word_inside_img{
+.software_solutions_5  .word_inside_img{
     left: 50px;
     bottom: 10px;
-
 }
 
-.software_solutions_5 .scrollbar .software_solutions_img_box:hover .portinfo{
+.software_solutions_5  .software_solutions_img_box:hover .portinfo{
     opacity: 1;
 
 }

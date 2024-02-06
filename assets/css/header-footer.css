@@ -61,12 +61,21 @@ body{
     color: rgb(40, 176, 255) !important;
 
 }
-
+#feature_inner_list_1 li a, #feature_inner_list_2 li a,#feature_inner_list_3 li a, #feature_inner_list_4 li a, .dropdown-item {
+    color: rgb(85, 85, 85) !important;
+}
+.dropdown-item:active{
+    background-color: rgb(241, 241, 241);
+}
+.dropdown-item:hover{
+    background-color: rgb(250, 250, 250);
+}
 .navbar_section .search_box{
-    position: absolute;
+    position: fixed;
     top: -160px;
     left: 0;
     right: 0;
+    z-index: 99;
     opacity: 0;
     display: none !important;
 }
@@ -75,6 +84,7 @@ body{
 
 /* ----------------------FOOTER------------------ */
 
+/* --------------Index Footer--------------- */
 footer{
     background: url(../images//main/footer-bg.png);
     background-position: center;
@@ -83,8 +93,18 @@ footer{
 }
 .footer .footer_right_content p , .footer .footer_list .footer_list_ul li , .footer .copyright_social_media .copyright{
     font-size: 14px;
-    color: rgb(187, 187, 187);
+   
     font-weight: 500;
+   
+}
+.footer .copyright_social_media .copyright , .footer_right_para{
+    opacity: 1;
+    color: #e7e5ea;
+}
+.footer .footer_right_content .footer_list .footer_list_ul a{
+    color: #e7e5ea;
+    opacity: .7;
+    font-size: 15px;
 }
 li{
     list-style: none;

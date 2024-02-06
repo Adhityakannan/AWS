@@ -92,13 +92,19 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 500;
 }
 /* ------------------------------------ */
-
+ 
 /* -----------------software solutions--------------- */
 #software_solutions{
     background: url(../images/main/bg-patter-new-min-1.png);
     background-position: center;
     background-repeat: no-repeat;
 
+}
+#software_solutions .owl-carousel .owl-stage{
+    display: flex;
+}
+#software_solutions .owl-carousel .owl-stage .owl-item{
+    display: flex;
 }
 #software_solutions .software_solutions_img:hover{
     cursor: grab;
@@ -163,10 +169,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
         /* -------customer-------- */
-       #employee .customers .container .stars{
-            color:  #FFBB00 !important;
-            font-size: 12px !important;
-        }
+ #employee .customers .container .stars{
+ color:  #FFBB00 !important;
+  font-size: 12px !important;
+ }
 
 
 /* --------------------------------------------------------------- */
@@ -220,8 +226,6 @@ h1,h2,h3,h4,h5,h6{
 #month_amt , #month_amt1 , #year_amt1, #month_amt2, #year_amt2, #year_amt{
     font-size: 3.8rem;
 }
-
-
 .middle_price{
     background: #12022f;
 }

@@ -19,6 +19,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    /* ------------COMMON CSS--------------- */
+
+    .about_s1 .main_page_heading {
+        font-size: 55px;
+        line-height: 49px;
+    }
+
+    /* ------------------------------------ */
+
 
     /* ------------------INDEX CSS_____________________________ */
 
@@ -55,12 +64,27 @@
     #building_business .building_business_contents .building_business_count{
         gap: 35px;
     }
+
+
+    /* ------------Counters CSS---------------- */
+    .startup_sec .bg_h1{
+        top: 53%;
+        left: 0;
+        width: 100%;
+    }
    
 }
 
 /* /* ---- iphone 13pro max ---------- */
 @media only screen and (max-device-width: 430px) {
 
+    /* ----------COMMON CSS--------------- */
+    
+    .about_s1 .main_page_heading {
+        font-size: 56px;
+        line-height: 53px;
+    }
+    /* --------------------------------------- */
 }
 
 /* /* ---- iphone XR max ---------- */
@@ -87,7 +111,13 @@
 
 /* pixel 5  ----------- */
 @media only screen and (max-device-width: 393px) {
-   
+
+    /* ----------PORTFOLIO STYLE CSS----------------- */
+    .software_solutions .container .scrollbar_content_designation_box {
+        
+        width: 80%;
+    }
+   /* ------------------------------------ */
 }
 
 /* iPhone 12 pro ----------- */
@@ -146,6 +176,13 @@
 
 }
 @media only screen and (max-device-width: 300px) {
+
+    /* ----------COMMON CSS--------------- */
+    .about_s1 .main_page_heading {
+        font-size: 47px;
+        line-height: 43px;
+    }
+    /* ------------------------------------ */
     #month_amt , #month_amt1 , #year_amt1, #month_amt2, #year_amt2, #year_amt{
         font-size: 2rem;
     }
@@ -154,6 +191,8 @@
         
         padding: 15px 20px  !important;
     }
+
+
 }
 
 
